@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inner{
+            width: 1170px;
+            border: 2px solid purple;
+            margin: auto;
+        }
+
+        .col{
+            width: 23%;
+            margin: 1%;
+            float: left;
+            text-align: center;
+            background-color: #ccc;
+        }
+        .col img{
+
+            width: 100%;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        @media only screen and (min-width:200px) and (max-width:576px){
+            .inner{
+                width: 100%;
+            }
+            .col{
+                width: 44%;
+                margin: 3%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="inner">
+        <div class="col">
+            <img src="./images/headphone1.jpeg" alt="">
+            <h2>Head Phone</h2>
+        </div>
+        <div class="col"> 
+            <img src="./images/headphone1.jpeg" alt="">
+            <h2>Head Phone</h2>
+
+        </div>
+        <div class="col">
+            <img src="./images/headphone1.jpeg" alt="">
+            <h2>Head Phone</h2>
+
+        </div>
+        <div class="col">
+            <img src="./images/headphone1.jpeg" alt="">
+            <h2>Head Phone</h2>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
